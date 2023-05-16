@@ -210,7 +210,7 @@ export default {
       <nav aria-label="breadcrumb mb-6">
         <ol class="breadcrumb fs-5">
           <li class="breadcrumb-item text-primary">
-            <router-link to="/">>首頁</router-link>
+            <router-link to="/">首頁</router-link>
           </li>
           <template v-if="currentCategory">
             <li class="breadcrumb-item text-primary">

@@ -39,7 +39,7 @@
           <p class="fw-light lh-lg">{{ scenicSpot.Description }}</p>
         </div>
 
-        <div class="row gy-4 mapwidth">
+        <div class="row gy-4 mapwidth mb-5">
           <div class="col-lg-6">
             <div class="spot-information rounded-3 bg-light p-4 fs-5 mb-3">
               <div v-if="scenicSpot.StartTime" class="row g-1 mb-2">
@@ -89,18 +89,18 @@
             <div class="nearby row gy-3">
               <div class="col-sm-4">
                 <a href=""></a>
-                <img src="../assets/nearby-scene30.svg" alt="" />
-                <span class="mt-1 text-primary fs-5 fw-bold">附近景點</span>
+                <img src="../assets/nearby-scene30.svg" alt="" width="80px" />
+                <div class="mt-1 fs-5 fw-bold">附近景點</div>
               </div>
               <div class="col-sm-4">
                 <a href=""></a>
-                <img src="../assets/nearby-event30.svg" alt="" />
-                <span class="mt-1 text-primary fs-5 fw-bold">附近活動</span>
+                <img src="../assets/nearby-event30.svg" alt="" width="80px" />
+                <div class="mt-1 fs-5 fw-bold">附近活動</div>
               </div>
               <div class="col-sm-4">
                 <a href=""></a>
-                <img src="../assets/nearby-food30.svg" alt="" />
-                <span class="mt-1 text-primary fs-5 fw-bold">附近美食</span>
+                <img src="../assets/nearby-food30.svg" alt="" width="80px" />
+                <div class="mt-1 fs-5 fw-bold">附近美食</div>
               </div>
             </div>
           </div>
@@ -120,8 +120,8 @@
     </section>
     <section class="similar-activties">
       <div class="d-flex justify-content-between align-items-end mb-3">
-        <h1 class="fw-light fs-2 mb-0">還有這些不能錯過的活動</h1>
-        <router-link to="/scenic-spots" class="text-danger fs-5 text-end"
+        <h1 class="fw-light fs-3 mb-0">還有這些不能錯過的活動</h1>
+        <router-link to="/scenic-spots" class="text-end scenicspot-more"
           >查看更多活動<i class="fa-sharp fa-solid fa-chevron-right"></i
         ></router-link>
       </div>
@@ -131,7 +131,7 @@
           :key="similar.ScenicSpotID"
           class="col-6 col-lg-3"
         >
-          <GeneralCard :item="similar" cardPath="'scenicSpots'"></GeneralCard>
+          <GeneralCard :item="similar" cardPath="scenicSpots"></GeneralCard>
         </div>
       </div>
     </section>
@@ -266,5 +266,15 @@ export default {
 }
 .mapwidth {
   width: 100%;
+}
+.nearby > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scenicspot-more {
+  color: #ff725e;
+  font-size: 16px;
+  text-decoration: none;
 }
 </style>

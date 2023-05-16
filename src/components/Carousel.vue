@@ -43,7 +43,7 @@
             class="d-block carousel-img"
             alt="..."
           />
-          <p class="carousel-caption">測試</p>
+          <p class="carousel-caption">台東</p>
         </div>
         <div class="carousel-item">
           <img
@@ -51,7 +51,7 @@
             class="d-block carousel-img"
             alt="..."
           />
-          <p class="carousel-caption">測試</p>
+          <p class="carousel-caption">宜蘭</p>
         </div>
         <div class="carousel-item">
           <img
@@ -59,7 +59,7 @@
             class="d-block carousel-img"
             alt="..."
           />
-          <p class="carousel-caption">測試</p>
+          <p class="carousel-caption">蘭嶼</p>
         </div>
         <div class="carousel-item">
           <img
@@ -67,7 +67,7 @@
             class="d-block carousel-img"
             alt="..."
           />
-          <p class="carousel-caption">測試</p>
+          <p class="carousel-caption">新北</p>
         </div>
       </div>
       <button
