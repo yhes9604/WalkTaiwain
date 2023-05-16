@@ -1,7 +1,24 @@
-# Vue 3 + Vite
+# WalkTaiwan TDX觀光網頁
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## DEMO
+網頁預覽： [DEMO](https://yhes9604.github.io/WalkTaiwain/#/)
 
-## Recommended IDE Setup
+## 使用技術
+* 使用 Vue.js / Vue Vite 架設，Vue-Router 管理路由
+* 使用 Vue axios 串接TDX API 連接資料
+* 引入 Bootstrap5，製作 RWD 響應式網頁
+* 使用 ESLint 管控程式撰寫風格
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+## 功能介紹
+
+### 前台
+* 首頁串接TDX資料，隨機顯示推薦景點
+* 點擊每個活動都可以查看詳細資料
+* 頁面都有google map地圖顯示位置
+* 可以篩選縣市活動、景點、餐廳
+
+##  網頁操作
+1. 預設首頁 
+2. 首頁隨機推薦活動、景點、餐廳
+3. 
