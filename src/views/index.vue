@@ -130,8 +130,6 @@ export default {
           </div>
           <div class="col-md-4 col-lg-5">
             <form>
-              <DropdownList :listItems="thems"></DropdownList>
-
               <input
                 type="text"
                 class="border rounded bg-light fs-5 px-3 py-2 w-100 mb-2"

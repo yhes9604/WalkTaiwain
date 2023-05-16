@@ -7,20 +7,8 @@
           alt=""
       /></router-link>
 
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria
-        dev-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div>
+        <ul class="navbar-nav mb-2">
           <li class="nav-item">
             <router-link class="nav-link" to="/scenic-spots"
               >探索景點</router-link
@@ -45,4 +33,15 @@ export default {
 };
 </script>
 <style scoped>
+@media (max-width: 900px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    align-items: center;
+  }
+  .nav-item {
+    margin: 2px;
+  }
+}
 </style>
