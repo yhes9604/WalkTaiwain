@@ -1,7 +1,7 @@
 # WalkTaiwan TDX觀光網頁
 
 ## DEMO
-網頁預覽： [DEMO](https://yhes9604.github.io/WalkTaiwan/)
+網頁預覽： [DEMO](https://walktaiwan-b15c8.web.app/#/)
 
 ## 使用技術
 * 使用 Vue.js / Vue Vite 架設，Vue-Router 管理路由
